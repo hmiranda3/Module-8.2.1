@@ -31,8 +31,9 @@ let sam = Person(firstName: "Sam", lastName: "Smith", age: 33)
 
 // Here we created a new variable that contains the names of persons in the club.
 
-var clubMemebers: [Person] = [james, andrea, carol, habib]
+var clubMemebers: [Person] = [james, andrea, carol]
 
+clubMemebers.append(habib)
 // This function below is to check whether someone is in the club or not.
 
 func areYouAMemeberOfTheClub(person: Person) -> Bool {
